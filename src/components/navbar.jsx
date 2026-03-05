@@ -9,7 +9,7 @@ function Navbar() {
                     Julius Lam
                 </div>
                 <div>
-                    ...
+                    About
                 </div>
             </div>
         </nav>
