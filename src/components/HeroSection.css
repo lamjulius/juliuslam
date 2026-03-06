@@ -1,7 +1,29 @@
 .HeroSection {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 80px;
+    color: inherit;
+}
+
+.HeroName {
+    display: flex;
+}
+
+.HeroLogos {
+    display: flex;
+    justify-content: space-between;
+    width: 4rem;
+    margin-top: -40px;
+}
+
+.HeroLogos a {
+    color: inherit;
+    transition: transform 0.25s ease;
+}
+
+.HeroLogos a:hover {
+  transform: scale(1.1);
 }
