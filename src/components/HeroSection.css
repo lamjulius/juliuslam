@@ -12,6 +12,10 @@
     display: flex;
 }
 
+.HeroEmail {
+    font-size: 20px;
+}
+
 .HeroLogos {
     display: flex;
     justify-content: space-between;

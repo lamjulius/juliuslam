@@ -1,4 +1,5 @@
 import React from 'react'
+import DarkModeToggle from './DarkModeToggle'
 import './navbar.css'
 
 function Navbar() {
@@ -6,10 +7,10 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div>
-                    Julius Lam
+                    JL
                 </div>
                 <div>
-                    About
+                    <DarkModeToggle></DarkModeToggle>
                 </div>
             </div>
         </nav>
