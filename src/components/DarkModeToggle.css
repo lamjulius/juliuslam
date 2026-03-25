@@ -1,12 +1,15 @@
 :root{
-   --color-bg: rgb(236, 236, 236);
+   --color-bg: white;
+   --color-text: black;
 }
 
 .dark-mode{
    --color-bg: rgb(31, 31, 31);
+   --color-text: white;
 }
 
 body {
    background-color: var(--color-bg);
+   color: var(--color-text);
    transition: background-color 0.3s ease;
 }
