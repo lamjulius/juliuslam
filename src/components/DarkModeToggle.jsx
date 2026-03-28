@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Moon } from 'lucide-react';
+import { Moon, Sun} from 'lucide-react';
 import './DarkModeToggle.css';  
 
 
@@ -17,7 +17,7 @@ function DarkModeToggle() {
             }}
         >
 
-            <Moon></Moon>
+            {isDarkModeActive ? <Sun></Sun> : <Moon></Moon>}
         </button>
     )
 }
