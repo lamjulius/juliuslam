@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div>
-                    JL
+                    <a href=".">JL</a>
                 </div>
                 <div>
                     <DarkModeToggle></DarkModeToggle>
